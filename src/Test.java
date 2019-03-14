@@ -7,7 +7,7 @@ public class Test
 {
 	public static void main(String[] args) 
 		{
-		 Resource res=new ClassPathResource("myconfig.xml");
+		 Resource res=new ClassPathResource("myconfig1.xml");
 	      BeanFactory fac=new XmlBeanFactory(res);
 	      DemoBean ob1=(DemoBean)fac.getBean("id2");
 			ob1.showMsg();    
